@@ -9,6 +9,17 @@ Will only work in browser ENV as there is not included XMLHttpRequest in nodejs.
 
 ## Usage
 
+~~~js
+var jsonPromise = require('./index');
+
+var url = 'http://localhost:8080/node_modules/@mohayonao/wave-tables/Bass.json';
+
+jsonPromise(url).then(function(data) {
+    console.log(data);
+});
+~~~
+
+
 See [index.html](index.html)
 
 MIT © [Dennis Iversen](https://github.com/diversen)
