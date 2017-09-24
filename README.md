@@ -1,7 +1,7 @@
 # Get json promise
 
 Tiny module for getting JSON from a URL as a promise. 
-Will only work in browser ENV as there is not included XMLHttpRequest in nodejs. It also does not include any promise libary. 
+Will only work in browser ENV as there is not included XMLHttpRequest in nodejs. It also does not include any promise library - so it may not work in older browsers. 
 
 ## Install 
 
