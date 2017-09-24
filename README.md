@@ -19,6 +19,7 @@ jsonPromise(url).then(function(data) {
 });
 ~~~
 
+Example in browser: 
 
 See [index.html](index.html)
 
