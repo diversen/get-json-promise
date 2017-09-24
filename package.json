@@ -1,0 +1,12 @@
+{
+  "name": "get-json-promise",
+  "version": "1.0.0",
+  "description": "Tiny module for getting JSON from a URL as a promise.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "dennis iversen",
+  "license": "MIT"
+}

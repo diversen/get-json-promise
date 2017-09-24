@@ -1,0 +1,9 @@
+<body>
+<script src="dist/get-json-promise.js"></script>
+<script>
+
+var url = 'package.json';
+getJsonPromise(url).then(function(data) {
+    console.log(data);
+});
+</script>
