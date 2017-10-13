@@ -10,7 +10,7 @@ function getJSONPromise(url) {
                 try {
                     JSON.parse(request.responseText);
                 } catch (error) {
-                    reject('JSON could not be parsed. Error ' + error);
+                    reject('JSON could not be parsed. File ' + url +  'Error ' + error);
                 }
 
                 resolve(JSON.parse(request.responseText));
