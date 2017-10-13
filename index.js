@@ -10,7 +10,7 @@ function getJSONPromise(url) {
                 try {
                     resolve(JSON.parse(request.responseText));
                 } catch (error) {
-                    resolve(error);
+                    reject(error);
                 }
             } else {
                 reject('JSON could not be loaded ' + url);
