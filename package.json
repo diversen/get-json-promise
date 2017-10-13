@@ -1,6 +1,6 @@
 {
   "name": "get-json-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny module for getting JSON from a URL as a promise. ",
   "main": "index.js",
   "devDependencies": {},
