@@ -16,6 +16,7 @@ var url = 'http://localhost:8080/package.json';
 
 jsonPromise(url).then(function(data) {
     console.log(data);
+    // Returns object JSON.parse 
 });
 ~~~
 

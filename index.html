@@ -2,8 +2,19 @@
 <script src="dist/get-json-promise.js"></script>
 <script>
 
+// Success
 var url = 'package.json';
 getJsonPromise(url).then(function(data) {
     console.log(data);
+}).catch(function(error){
+    console.log(error)
+});
+
+// Throw and catch error
+var url = 'index.html';
+getJsonPromise(url).then(function(data) {
+    console.log(data);
+}).catch(function(error){
+    console.log(error)
 });
 </script>
