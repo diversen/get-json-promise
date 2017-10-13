@@ -7,7 +7,11 @@ function getJSONPromise(url) {
         request.responseType = 'text';
         request.onload = function () {
             if (request.status === 200) {
-                resolve(JSON.parse(request.responseText));
+                try {
+                    resolve(JSON.parse(request.responseText));
+                } catch (error) {
+                    resolve(error);
+                }
             } else {
                 reject('JSON could not be loaded ' + url);
             }
