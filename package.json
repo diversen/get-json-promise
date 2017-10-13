@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "Tiny module for getting JSON from a URL as a promise. ",
   "main": "index.js",
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "test.js"
@@ -22,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/diversen/get-json-promise/issues"
   },
-  "homepage": "https://github.com/diversen/get-json-promise#readme"
+  "homepage": "https://github.com/diversen/get-json-promise#readme",
+  "dependencies": {}
 }
